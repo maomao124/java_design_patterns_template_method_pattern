@@ -20,6 +20,7 @@ public class Test
         AbstractClass abstractClass = new ConcreteClass_BaoCai();
         abstractClass.cookProcess();
         System.out.println("-----");
-
+        abstractClass = new ConcreteClass_CaiXin();
+        abstractClass.cookProcess();
     }
 }
